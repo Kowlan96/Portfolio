@@ -179,6 +179,53 @@ nav.principal a:hover {
     
 }
 
+#proyectos{
+    margin-top: 300px;
+    border-radius: 50px;
+    display:grid;
+    position: relative;
+}
+
+.proyectos{
+    margin-top: 100px;
+    text-shadow: 3px 4px 1px #00000040;
+    font-family: K2DExtraBold, Helvetica;
+    color: #ffffff;
+    font-size: 100px;
+    letter-spacing: 1.38px;
+    float: left;
+    position: relative;
+    margin-left: 50px;
+}
+
+#containerPoryectos{
+    display:flex;
+    position: relative;
+}
+
+.textoProyectos{
+    text-shadow: 2px 3px 1px #00000040;
+    font-family: K2DRegular, Helvetica;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 1.38px;
+    float: left;
+    position: relative;
+    margin: 50px;
+    text-align: center;
+}
+
+.imagenProyectos{
+    margin:auto;
+    height: 350px;
+    width: 350px;
+    background: url(../img/LogoJuego.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 500px;
+    
+}
+
 #educacion{
     margin-top: 300px;
     border-radius: 50px;
@@ -554,6 +601,51 @@ nav.principal a:hover {
     }
     
     .imagenSobreMi{
+        margin:auto;
+        height: 300px;
+        width: 300px;
+        background-color: black;
+    }
+
+    #proyectos{
+        width: 100%;
+        margin-top: 400px;
+        border-radius: 50px;
+        display:grid;
+        position: relative;
+    }
+    
+    .proyectos{
+        width: 100%;
+        text-shadow: 3px 4px 1px #00000040;
+        font-family: K2DExtraBold, Helvetica;
+        color: #ffffff;
+        font-size: 70px;
+        letter-spacing: 1.38px;
+        position: relative;
+        margin: auto;   
+        text-align: center;
+    }
+    
+    #containerProyectos{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .textoProyectos{
+        width: 90%;
+        text-shadow: 2px 3px 1px #00000040;
+        font-family: K2DRegular, Helvetica;
+        color: #ffffff;
+        font-size: 25px;
+        letter-spacing: 1.38px;
+        text-align: center;
+        position: relative;
+        margin: auto;
+    }
+    
+    .imagenProyectos{
         margin:auto;
         height: 300px;
         width: 300px;
