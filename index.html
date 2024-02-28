@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
+    <script src='./js/style.js'></script>
+</head>
+
+<body>
+    
+    <button class="botonMenu">
+        <img src="/Portfolio/img/Boton.png" />
+    </button>
+
+    <nav class="principal">
+        <ul>
+            <li><a href="#" class="textoMenu">Inicio</a></li>
+            <li><a href="#sobreMi" class="textoMenu">Sobre Mi</a></li>
+            <li><a href="#educacion" class="textoMenu">Educación y Experiencia</a></li>
+            <li><a href="#skills" class="textoMenu">Habilidades</a></li>
+            <li><a href="#contacto" class="textoMenu">Contacto</a></li>
+            <li><button onclick="openLinkInNewTab()" id="cv" class="textoMenu">Descargar CV</li>
+                <script>
+                    let openLinkInNewTab = () => {
+                        window.open("https://drive.google.com/file/d/1ijx4BN7SOoOUwx1fBldk6v8zzvqZsy58/view?usp=sharing")
+                    }
+                </script>    
+        </ul>
+    </nav>    
+
+    <div id="idiomas">
+        <div class="español"></div>
+        <a class="ingles" href="indexEnglish.html"></a>
+    </div>
+
+    <div id="containerIntro">
+        <div class="textoIntro">Daniel<br>Navarro</div>
+        <div class="textoIntro2">Diseñador y Desarrolador Web</div>
+    </div>
+
+    <div id="sobreMi">
+        <div class="sobreMi">Sobre Mi</div>
+        <div id="containerSobreMi">
+            <div class="imagenSobreMi"></div>
+            <div class="textoSobreMi">Me considero una persona alegre y apasionada por aprender e
+                investigar nuevas tecnologías. Me encanta trabajar en equipo y
+                soy muy extrovertido.<br>
+                Habiendo terminado una formación dual en la empresa KPMG
+                estoy deseando demostrar mis habilidades en el mundo laboral. 
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="educacion">
+        <div class="containerEducacion">Educación
+            <div class="textoEdExp">·TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA</div>
+            <div class="textoEdExp2">Centro San Valero | Septiembre 2023 - Junio 2025</div>
+            <div class="textoEdExp">·TÉCNICO SUPERIOR EN ANIMACION 3D, JUEGOS Y ENTORNOS INTERACTIVOS</div>
+            <div class="textoEdExp2">C.P.I.F.P Los Enlaces | Septiembre 2015 - Junio 2017</div>
+        </div>    
+
+        <div class="containerExperiencia">Experiencia
+            <div class="textoEdExp">·REPONEDOR</div>
+            <div class="textoEdExp2">SUPERCOR | Julio 2022 - Noviembre 2022</div>
+            <div class="textoEdExp">·EDITOR DE VÍDEO</div>
+            <div class="textoEdExp2">NATINNOVA | Marzo 2017 - Agosto 2017</div>
+            <div class="textoEdExp">·DISEÑADOR GRÁFICO</div>
+            <div class="textoEdExp2">TFG | Febrero 2015 - Mayo 2018</div>
+            <div class="textoEdExp">·AYUDANTE DE COCINA</div>
+            <div class="textoEdExp2">CERLER | Diciembre 2021 - Marzo 2022 </div>
+        </div>   
+    </div>
+
+    <div id="skills">
+        <div class="containerSkills">Habilidades
+            <div class="containerSkills2">
+                <div class="containerBarras1">
+                    <div class="front">HTML 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                    <div class="front">CSS 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                    <div class="front">AWS 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="containerBarras2">    
+                    <div class="front">JAVA 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                    <div class="front">SQL 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                    <div class="front">JAVASCRIPT 70%
+                        <div class="progress">
+                            <div class="progress-value"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>           
+        </div>
+    </div>
+
+    <div id="contacto">Contacto</div>
+    <div class="container-form"> 
+            <form action="https://formsubmit.co/daniel_zgz96@hotmail.com" method="POST" autocomplete="off">
+                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                <input type="email" name="email" placeholder="Tu Email" class="campo">
+                <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+                <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+    </div>
+    
+
+    <div id="espacio"></div>
+
+</body>
+</html>
