@@ -406,17 +406,17 @@ nav.principal a:hover {
   /*CREAMOS LA ANIMACION PARA LAS BARRAS*/
   @keyframes load1 {
     0% { width: 0; }
-    100% { width: 70%; }
+    100% { width: 60%; }
   }
 
   @keyframes load2 {
     0% { width: 0; }
-    100% { width: 75%; }
+    100% { width: 55%; }
   }
 
   @keyframes load3 {
     0% { width: 0; }
-    100% { width: 60%; }
+    100% { width: 50%; }
   }
 
 
@@ -523,10 +523,8 @@ nav.principal a:hover {
     position: relative;
     padding-top: 5%;
     margin: auto;
-    height: 100%;
     display: flex;
-    text-align: center;
-    flex-direction: row;
+    justify-content: center;
 }
 
 .telefono{
@@ -545,8 +543,7 @@ nav.principal a:hover {
     background-size: cover;
     height: 100px;
     width: 100px;
-    margin: auto;
-
+    margin-right: 50px;
 }
 
 .linkedin{
@@ -554,8 +551,6 @@ nav.principal a:hover {
     background-size: cover;
     height: 100px;
     width: 100px;
-    margin: auto;
-
 }
 
 
@@ -986,8 +981,7 @@ nav.principal a:hover {
         margin: auto;
         height: 100%;
         display: flex;
-        text-align: center;
-        flex-direction: column;
+        justify-content: center;
     }
     
     .telefono{
@@ -1006,8 +1000,6 @@ nav.principal a:hover {
         background-size: cover;
         height: 100px;
         width: 100px;
-        margin: auto;
-
     }
     
     .linkedin{
@@ -1015,8 +1007,6 @@ nav.principal a:hover {
         background-size: cover;
         height: 100px;
         width: 100px;
-        margin: auto;
-
     }
     
     #espacio{
