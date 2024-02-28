@@ -20,11 +20,12 @@
             <li><a href="#" class="textoMenu">Home</a></li>
             <li><a href="#sobreMi" class="textoMenu">About Me</a></li>
             <li><a href="#educacion" class="textoMenu">Degrees and Experience</a></li>
+            <li><a href="#proyectos" class="textoMenu">Proyects</a></li>
             <li><a href="#skills" class="textoMenu">Skills</a></li>
             <li><a href="#contacto" class="textoMenu">Contact</a></li>
-            <li><button onclick="openLinkInNewTab()" id="cv" class="textoMenu">Download CV</li>
+            <li><button onclick="openLinkInNewTab1()" id="cv" class="textoMenu">Download CV</li>
                 <script>
-                    let openLinkInNewTab = () => {
+                    let openLinkInNewTab1 = () => {
                         window.open("https://drive.google.com/file/d/1W1y5UcizESiMIP84AlPefIB3Bwxz90YE/view?usp=sharing")
                     }
                 </script>    
@@ -32,8 +33,9 @@
     </nav>    
 
     <div id="idiomas">
-        <a class="español" href="index.html"></a>
+        <a class="español" href="/index.html"></a>
         <div class="ingles"></div>
+        
     </div>
 
     <div id="containerIntro">
@@ -73,8 +75,23 @@
             <div class="textoEdExp2">NATINNOVA | March 2017 - August 2017</div>
             <div class="textoEdExp">·GRAPHIC DESIGNER</div>
             <div class="textoEdExp2">TFG | February 2015 - May 2018</div>
-
         </div>   
+    </div>
+
+    <div id="proyectos">
+        <div class="proyectos">Projects</div>
+        <div id="containerProyectos">
+            <a class="imagenProyectos" onclick="openLinkInNewTab2()"></a>
+            <script>
+                let openLinkInNewTab2 = () => {
+                    window.open("https://danielnavarroshadowrealms.netlify.app/")
+                }
+            </script> 
+            <div class="textoProyectos">Web page</br>
+                Haz click en la imagen para echarle un ojo si quieres.
+            </div>
+            
+        </div>
     </div>
 
     <div id="skills">
@@ -83,35 +100,35 @@
                 <div class="containerBarras1">
                     <div class="front">HTML 70%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueHTML"></div>
                         </div>
                     </div>
-                    <div class="front">CSS 70%
+                    <div class="front">CSS 75%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueCSS"></div>
                         </div>
                     </div>
-                    <div class="front">AWS 70%
+                    <div class="front">AWS 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueAWS"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="containerBarras2">    
-                    <div class="front">JAVA 70%
+                    <div class="front">JAVA 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueJAVA"></div>
                         </div>
                     </div>
                     <div class="front">SQL 70%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueSQL"></div>
                         </div>
                     </div>
-                    <div class="front">JAVASCRIPT 70%
+                    <div class="front">JAVASCRIPT 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueJAVASCRIPT"></div>
                         </div>
                     </div>
                 </div> 
@@ -119,7 +136,7 @@
         </div>
     </div>
 
-    <div id="contacto">Contact</div>
+    <div id="contacto">Contacto</div>
     <div class="container-form"> 
             <form action="https://formsubmit.co/daniel_zgz96@hotmail.com" method="POST" autocomplete="off">
                 <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
@@ -129,8 +146,14 @@
             </form>
     </div>
     
+    <div id ="containerredes">
+        <div class="telefono">Phone Number: 673 29 37 86 </div>
+        <a class="github"></a>
+        <a class="linkedin"></a>
+    </div>
 
     <div id="espacio"></div>
+
 
 </body>
 </html>

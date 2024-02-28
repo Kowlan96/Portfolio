@@ -23,9 +23,9 @@
             <li><a href="#proyectos" class="textoMenu">Proyectos</a></li>
             <li><a href="#skills" class="textoMenu">Habilidades</a></li>
             <li><a href="#contacto" class="textoMenu">Contacto</a></li>
-            <li><button onclick="openLinkInNewTab()" id="cv" class="textoMenu">Descargar CV</li>
+            <li><button onclick="openLinkInNewTab1()" id="cv" class="textoMenu">Descargar CV</li>
                 <script>
-                    let openLinkInNewTab = () => {
+                    let openLinkInNewTab1 = () => {
                         window.open("https://drive.google.com/file/d/1ijx4BN7SOoOUwx1fBldk6v8zzvqZsy58/view?usp=sharing")
                     }
                 </script>    
@@ -79,11 +79,16 @@
     <div id="proyectos">
         <div class="proyectos">Proyectos</div>
         <div id="containerProyectos">
-            <div class="imagenProyectos"></div>
-            <div class="textoProyectos">Página web realizada en la primera evaluación orientada
-                principalmente a verla en formato móvil y en la que decidí
-                crear una página de inicio para un videojuego que estaba llevando a cabo 
-                de forma ficticia. 
+            <a class="imagenProyectos" onclick="openLinkInNewTab2()"></a>
+            <script>
+                let openLinkInNewTab2 = () => {
+                    window.open("https://danielnavarroshadowrealms.netlify.app/")
+                }
+            </script> 
+            <div class="textoProyectos">Website created during the first evaluation, 
+                primarily designed for mobile, where I decided to create a 
+                homepage for a fictitious video game</br>
+                Click on the image if you want to visit the website. 
             </div>
             
         </div>
@@ -95,35 +100,35 @@
                 <div class="containerBarras1">
                     <div class="front">HTML 70%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueHTML"></div>
                         </div>
                     </div>
-                    <div class="front">CSS 70%
+                    <div class="front">CSS 75%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueCSS"></div>
                         </div>
                     </div>
-                    <div class="front">AWS 70%
+                    <div class="front">AWS 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueAWS"></div>
                         </div>
                     </div>
                 </div>
 
                 <div class="containerBarras2">    
-                    <div class="front">JAVA 70%
+                    <div class="front">JAVA 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueJAVA"></div>
                         </div>
                     </div>
                     <div class="front">SQL 70%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueSQL"></div>
                         </div>
                     </div>
-                    <div class="front">JAVASCRIPT 70%
+                    <div class="front">JAVASCRIPT 60%
                         <div class="progress">
-                            <div class="progress-value"></div>
+                            <div class="progress-valueJAVASCRIPT"></div>
                         </div>
                     </div>
                 </div> 
@@ -141,8 +146,24 @@
             </form>
     </div>
     
+    <div id ="containerredes">
+        <div class="telefono">Teléfono: 673 29 37 86 </div>
+        <a class="github" onclick="openLinkInNewTab3()"></a>
+        <script>
+            let openLinkInNewTab3 = () => {
+                window.open("https://github.com/Kowlan96")
+            }
+        </script> 
+        <a class="linkedin" onclick="openLinkInNewTab4()"></a>
+        <script>
+            let openLinkInNewTab4 = () => {
+                window.open("https://www.linkedin.com/in/daniel-navarro-marquesan-a12772120/")
+            }
+        </script> 
+    </div>
 
     <div id="espacio"></div>
+
 
 </body>
 </html>
