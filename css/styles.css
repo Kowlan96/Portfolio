@@ -8,6 +8,7 @@
     src: url(../fonts/K2D-ExtraBold.ttf);
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -18,7 +19,7 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
-
+/*CAMBIO IDIOMA*/
 #idiomas{
     display: flex;
     position: relative;
@@ -38,6 +39,7 @@ body{
     height: 30px;
 }
 
+/*MENU*/
 .botonMenu{
     opacity: 0;
 }
@@ -102,6 +104,7 @@ nav.principal a:hover {
     font-family: K2DRegular, Helvetica;
 }
 
+/*TEXTO INTRO*/
 #containerIntro{
     margin-top: 225px;
     border-radius: 50px;
@@ -132,6 +135,7 @@ nav.principal a:hover {
     margin: auto;
 }
 
+/*SOBRE MI*/
 #sobreMi{
     margin-top: 300px;
     border-radius: 50px;
@@ -180,28 +184,7 @@ nav.principal a:hover {
     
 }
 
-.textoProyectos{
-    width: 50%;
-    text-shadow: 2px 3px 1px #00000040;
-    font-family: K2DRegular, Helvetica;
-    color: #ffffff;
-    font-size: 25px;
-    letter-spacing: 1.38px;
-    float: left;
-    position: relative;
-    margin: 50px;
-}
-
-.imagenProyectos{
-    margin:auto;
-    height: 350px;
-    width: 350px;
-    background: url(../img/LogoJuego.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 500px;
-}
-
+/*ESTUDIOS Y EXPERIENCIA*/
 #educacion{
     margin-top: 300px;
     border-radius: 50px;
@@ -271,6 +254,7 @@ nav.principal a:hover {
     position: relative;
 }
 
+/*PROYECTOS*/
 #proyectos{
     margin-top: 300px;
     border-radius: 50px;
@@ -296,6 +280,29 @@ nav.principal a:hover {
     position: relative;
 }
 
+.textoProyectos{
+    width: 50%;
+    text-shadow: 2px 3px 1px #00000040;
+    font-family: K2DRegular, Helvetica;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 1.38px;
+    float: left;
+    position: relative;
+    margin: 50px;
+}
+
+.imagenProyectos{
+    margin:auto;
+    height: 350px;
+    width: 350px;
+    background: url(../img/LogoJuego.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 500px;
+}
+
+/*SKILLS*/
 #skills{
     margin-top: 300px;
     border-radius: 50px;
@@ -329,6 +336,7 @@ nav.principal a:hover {
     display:grid;
 }
 
+/*CREAMOS UN PROGRESO PARA LA BARRA CON ESTAS CARACTERISTICAS*/
 .progress {
     background: rgba(255,255,255,0.1);
     justify-content: flex-start;
@@ -395,6 +403,7 @@ nav.principal a:hover {
     width: 0;
   }
   
+  /*CREAMOS LA ANIMACION PARA LAS BARRAS*/
   @keyframes load1 {
     0% { width: 0; }
     100% { width: 70%; }
@@ -426,13 +435,7 @@ nav.principal a:hover {
     padding-top: 20px;
 }
 
-.back{
-    margin:auto;
-    height: 300px;
-    width: 300px;
-    background-color: black;
-}
-
+/*FORMULARIO DE CONTACTO FUNCIONAL*/
 #contacto{
     margin-top: 400px;
     margin-left: 50px;
@@ -515,6 +518,7 @@ nav.principal a:hover {
     margin-top: 150px;
 }
 
+/*APARTADO DE REDES*/
 #containerredes{
     position: relative;
     padding-top: 5%;
@@ -558,7 +562,7 @@ nav.principal a:hover {
 
 @media (max-width: 950px) {
     
-    
+    /*CREAMOS BOTON DEL MENU*/
     .botonMenu{
         opacity: 100;
         display: flex;
@@ -580,6 +584,7 @@ nav.principal a:hover {
         transform: translateX(0rem);
     }
 
+    /*CREAMOS LA NAVEGACIÓN PRINCIPAL DEL MENU DESPLEGABLE*/
     nav.principal {
         position: fixed;
         top: 0;
@@ -592,7 +597,6 @@ nav.principal a:hover {
         display: grid;
         justify-content: center;
     }
-    /* Estilos sencillos para decorar los links */
     nav.principal ul {
         display: grid;
         height: 50%;
