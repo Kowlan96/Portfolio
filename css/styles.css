@@ -42,7 +42,14 @@ body{
     opacity: 0;
 }
 
-
+nav.principal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    justify-content: center;
+}
 
 nav.principal ul {
     padding-top: 10px ;
@@ -165,7 +172,7 @@ nav.principal a:hover {
     margin:auto;
     height: 350px;
     width: 350px;
-    background: url(/Portfolio/img/2.png);
+    background: url(../img/2.png);
     background-size: cover;
     background-position: center;
     border-radius: 500px;
